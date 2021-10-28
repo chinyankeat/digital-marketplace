@@ -1,0 +1,6 @@
+dispatch:
+    - url: "iphonestore.org/*"
+      service: digital-marketplace
+
+    - url: "nft.iphonestore.org/*"
+      service: default
