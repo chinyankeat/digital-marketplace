@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Digital Marketplace using Polygon, Hardhat, Infura.io
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates demonstrates basic NFT Marketplace using testnet.
 
-Try running some of the following tasks:
+Run this by 
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npm install
+npm run dev
+npm run build
+npm start
+gcloud app deploy
 ```
